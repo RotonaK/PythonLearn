@@ -14,5 +14,5 @@ print("Hello World!" + " " + msg)
 
 input("Press enter to roll the dice!")
 # No need to manually seed; Python handles it on import
-for i in range(1):
-    print (dice + str(random.randint(1, 6)) + " ", random.randint(1, 6), sep=(", "))
+for _ in range(1):
+    print (dice + str(random.randint(1, 6)), random.randint(1, 6), sep=(", "))
