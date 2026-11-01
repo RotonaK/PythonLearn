@@ -12,7 +12,7 @@ dice = "The dice you rolled are: "
 #shows the message before the 2 dice rolls
 print("Hello World!" + " " + msg)
 
-input(dice)
+input("Press enter to roll the dice!")
 # No need to manually seed; Python handles it on import
 for i in range(1):
-    print (i, random.randint(1, 6), sep=(", "))
+    print (dice + str(random.randint(1, 6)) + " ", random.randint(1, 6), sep=(", "))
